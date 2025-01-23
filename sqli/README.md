@@ -42,7 +42,7 @@ sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=*" --batch --dbs --rand
 
 ```
 sudo rm -rf sqli.sh
-wget https://raw.githubusercontent.com/freelancermijan/my-oneliners/refs/heads/main/sqli/sqli.sh
+wget "https://raw.githubusercontent.com/h6nt3r/tools/refs/heads/main/sqli/sqli.sh"
 sudo chmod +x ./*.sh
 ./sqli.sh -h
 ```
