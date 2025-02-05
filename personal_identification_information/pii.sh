@@ -21,7 +21,6 @@ display_usage() {
             https://github.com/tomnomnom/anew
             https://github.com/projectdiscovery/urlfinder
             https://github.com/lc/gau
-            https://github.com/h6nt3r/Pattern-Matching
             https://github.com/RevoltSecurities/SubProber${NC}"
     exit 0
 }
