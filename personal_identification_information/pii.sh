@@ -20,14 +20,13 @@ display_usage() {
             https://github.com/xnl-h4ck3r/waymore
             https://github.com/tomnomnom/anew
             https://github.com/projectdiscovery/urlfinder
-            https://github.com/lc/gau
-            https://github.com/RevoltSecurities/SubProber${NC}"
+            https://github.com/lc/gau${NC}"
     exit 0
 }
 
 # Function to check installed tools
 check_tools() {
-    tools=("gau" "waymore" "urlfinder" "anew" "subprober")
+    tools=("gau" "waymore" "urlfinder" "anew")
 
     echo "Checking required tools:"
     for tool in "${tools[@]}"; do
