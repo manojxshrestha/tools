@@ -28,7 +28,7 @@ display_usage() {
 
 # Function to check installed tools
 check_tools() {
-    tools=("gau" "waymore" "urlfinder" "anew" "pm" "subprober")
+    tools=("gau" "waymore" "urlfinder" "anew" "subprober")
 
     echo "Checking required tools:"
     for tool in "${tools[@]}"; do
